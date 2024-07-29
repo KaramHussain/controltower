@@ -67,19 +67,6 @@ AWS Control Tower is a tool that helps you set up and manage your Landing Zone. 
 4. **Dashboard**: Offers a centralized view of your entire AWS environment, including account status, compliance, and resource usage.
    - Example: The AWS Control Tower dashboard provides a single pane of glass to monitor the health and compliance of your AWS accounts, helping you quickly identify and address issues.
 
-## Introduction to CloudFormation
-CloudFormation is a tool that allows you to define and manage your AWS resources using code. This is known as Infrastructure as Code (IaC).
-
-### Benefits of Using CloudFormation:
-1. **Automation**: Automates the creation and management of your AWS resources. This saves time and reduces the risk of manual errors.
-   - Example: With a CloudFormation template, you can automate the creation of a VPC, including subnets, route tables, and security groups, ensuring a consistent setup every time.
-2. **Consistency**: Ensures that your resources are configured the same way every time.
-   - Example: By using CloudFormation, you can ensure that all your EC2 instances are launched with the same security groups and IAM roles, reducing the risk of configuration drift.
-3. **Version Control**: Allows you to track changes to your infrastructure and roll back if needed.
-   - Example: You can store your CloudFormation templates in a version control system like Git, allowing you to track changes and revert to previous versions if necessary.
-4. **Collaboration**: Makes it easier for teams to work together on infrastructure projects.
-   - Example: Developers can work on CloudFormation templates collaboratively, making changes and reviewing each other's work before deploying updates to the AWS environment.
-
 ## Setting Up Your Landing Zone with Control Tower
 Here’s a step-by-step guide to setting up your Landing Zone using AWS Control Tower and CloudFormation:
 
