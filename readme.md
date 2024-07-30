@@ -78,6 +78,38 @@ First, enable AWS Control Tower in your AWS organization. This will guide you th
 AWS Control Tower will help you create a Landing Zone. This involves defining your account structure, networking, and security baseline.
    - Example: During the setup, you will specify the organizational units (OUs) for your accounts, such as production and development, and configure VPC settings for each OU.
 
+
+[![Architecture Diagram](1.%20ct.png)](1.%20ct.png)
+
+[![Architecture Diagram](2.%20ct.png)](2.%20ct.png)
+
+[![Architecture Diagram](3.%20ct.png)](3.%20ct.png)
+
+[![Architecture Diagram](4.%20ct.png)](4.%20ct.png)
+
+[![Architecture Diagram](5.%20ct.png)](5.%20ct.png)
+
+[![Architecture Diagram](6.%20ct.png)](6.%20ct.png)
+
+[![Architecture Diagram](7.%20ct.png)](7.%20ct.png)
+
+[![Architecture Diagram](8.%20ct.png)](8.%20ct.png)
+
+[![Architecture Diagram](9.%20ct.png)](9.%20ct.png)
+
+[![Architecture Diagram](10.%20ct.png)](10.%20ct.png)
+
+[![Architecture Diagram](11.%20ct.png)](11.%20ct.png)
+
+[![Architecture Diagram](12.%20ct.png)](12.%20ct.png)
+
+[![Architecture Diagram](13.%20ct.png)](13.%20ct.png)
+
+[![Architecture Diagram](14.%20ct.png)](14.%20ct.png)
+
+[![Architecture Diagram](15.%20ct.png)](15.%20ct.png)
+
+
 ### Step 3: Customize Guardrails
 Review the pre-defined guardrails and add or customize them to meet your organization's needs. These guardrails ensure that your environment stays secure and compliant.
    - Example: You might add a guardrail that requires all data stored in S3 buckets to be encrypted, ensuring that sensitive data is protected.
@@ -86,9 +118,14 @@ Review the pre-defined guardrails and add or customize them to meet your organiz
 Set up the Account Factory to automate the creation of new accounts. These accounts will automatically follow your organization’s standards.
    - Example: Use the Account Factory to create new accounts for different teams or projects, ensuring that each account is set up with the appropriate guardrails and network configurations.
 
+
+
+
+[![Architecture Diagram](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2020/06/09/01-solution-architecture.png)](![15.%20ct.png](https://d2908q01vomqb2.cloudfront.net/972a67c48192728a34979d9a35164c1295401b71/2020/06/09/01-solution-architecture.png))
 ### Step 5: Deploy Additional Resources
 Use CloudFormation templates to provision additional resources such as VPCs, subnets, security groups, and IAM roles.
    - Example: Deploy a CloudFormation template that sets up a new VPC with public and private subnets, internet gateways, and security groups for a new project.
+
 
 ### Step 6: Monitor and Maintain
 Regularly monitor your Landing Zone for compliance and resource usage. Use the Control Tower dashboard and AWS Config to track and address any issues.
